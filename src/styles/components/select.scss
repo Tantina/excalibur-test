@@ -1,0 +1,16 @@
+@import './base/variables.scss';
+
+.ui-select {
+	&__label {
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-right: 8px;
+	}
+
+	&__select {
+		background: #fff;
+		border-color: $select-border-color;
+		width: 100%;
+		height: 35px;
+	}
+}

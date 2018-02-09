@@ -1,0 +1,42 @@
+@mixin headingSpacing() {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.h1 {
+	@include headingSpacing();
+	font-size: 2.5rem;
+}
+
+.h2 {
+	@include headingSpacing();
+	font-size: 2rem;
+}
+
+.h3 {
+	@include headingSpacing();
+	font-size: 1.75rem;
+}
+
+.h4 {
+	@include headingSpacing();
+	font-size: 1.5rem;
+}
+
+.h5 {
+	@include headingSpacing();
+	font-size: 1.25rem;
+}
+
+.ol {
+	list-style-type: number;
+	margin-left: 2rem;
+
+	li {
+		line-height: 1.5;
+	}
+}

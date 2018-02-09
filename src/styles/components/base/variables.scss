@@ -1,0 +1,92 @@
+/*---------------------------------
+  Colors
+ ---------------------------------*/
+
+$blue-50: #f2fcfe; /* light background */
+$blue-100: #007bc7;
+$blue-150: #005ca8; /* btn */
+$blue-200: #282d40; /* subheader background */
+$blue-250: #484e5c;
+
+$grey-50: #fafafa; /* background */
+$grey-100: #c7c9d0; /* date color */
+$grey-150: #dddddd; /* border color */
+$grey-200: #666; /* text color */
+$grey-250: #979aa3; /* disabled Button */
+$grey-300: #575d6b; /* ? icon color */
+$grey-350: #999; /* btn default color */
+$grey-400: #121522; /* base text color */
+
+$red-50: #ffebec; /* light background */
+$red-100: #e22e4a; /* text color */
+$red-150: #dd0228; /* icon color */
+$red-200: #b70000; /* btn color */
+
+$green-50: #d6f0bb; /* light background */
+$green-100: #269f53; /* text color */
+
+$yellow-50: #fff3cd; /* light background */
+
+/*---------------------------------
+  Fonts
+ ---------------------------------*/
+
+$base-font-size: 14px;
+$base-font-color: $grey-400;
+$base-border-radius: 3px;
+
+/*---------------------------------
+  Button
+ ---------------------------------*/
+
+$button-bgr-default: $grey-50;
+$button-bgr-primary: $blue-100;
+$button-bgr-secondary: $blue-150;
+$button-bgr-danger: $red-200;
+$button-bgr-brand: $blue-250;
+
+$button-color: #fff;
+$button-color-default: $grey-200;
+
+$button-font-size: $base-font-size;
+$button-border-radius: $base-border-radius;
+
+/*---------------------------------
+  Table
+ ---------------------------------*/
+
+$table-header-bgr: $grey-50;
+$table-striped-bgr: $grey-50;
+$table-border-color: $grey-150;
+
+/*---------------------------------
+  Form elements
+ ---------------------------------*/
+
+$input-border-color: $grey-150;
+$input-border-radious: $base-border-radius;
+
+$select-border-color: $grey-150;
+$select-border-radius: 4px;
+
+/*---------------------------------
+  Alert
+ ---------------------------------*/
+
+$alert-bgr-default: $grey-50;
+$alert-bgr-info: $blue-50;
+$alert-bgr-warning: $yellow-50;
+$alert-bgr-success: $green-50;
+$alert-bgr-error: $red-50;
+
+$alert-border-radius: $base-border-radius;
+
+/*---------------------------------
+  Navigation Menu
+ ---------------------------------*/
+
+$nav-menu-border-color: $grey-150;
+$nav-menu-text-color: $grey-200;
+$nav-menu-text-active-color: $grey-400;
+$nav-menu-font-size: 15px;
+$nav-menu-bgr-hover: $grey-50;

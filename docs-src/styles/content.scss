@@ -1,0 +1,42 @@
+.docs-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.docs-content__header {
+  background-color: #0a7cc4;
+  color: #fff;
+  padding: 3rem;
+}
+
+.docs-content__header-title {
+  font-size: 3.2rem;
+  font-weight: 100;
+}
+
+.docs-content__header-intro {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid rgba(225, 225, 225, 0.8);
+}
+.docs-content__header-intro__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.5em;
+}
+.docs-content__header-intro__description {
+  font-size: 1.125rem;
+}
+
+.docs-content__page {
+  padding: 3rem;
+}
+
+.docs-content__header-intro__description {
+  pre {
+    display: inline-block;
+  }
+}
