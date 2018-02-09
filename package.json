@@ -3,7 +3,6 @@
 	"version": "0.1.0",
 	"description": "A test project",
 	"author": "Tatiana Kurenkova <tatiana.kurenkova@nitka.com>",
-	"private": true,
 	"scripts": {
 		"dev":
 			"webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -29,7 +28,6 @@
 		"copy-webpack-plugin": "^4.0.1",
 		"css-loader": "^0.28.0",
 		"eslint": "^3.19.0",
-		"eslint-config-politico": "^1.0.1",
 		"eslint-friendly-formatter": "^3.0.0",
 		"eslint-import-resolver-webpack": "^0.8.3",
 		"eslint-loader": "^1.7.1",

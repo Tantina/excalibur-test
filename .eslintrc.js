@@ -9,7 +9,6 @@ module.exports = {
 	env: {
 		browser: true
 	},
-	extends: 'politico',
 	// required to lint *.vue files
 	plugins: ['html'],
 	// check if imports actually resolve
