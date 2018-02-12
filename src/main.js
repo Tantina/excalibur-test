@@ -16,7 +16,7 @@ UiLibrary.install = function(Vue, opts = {}) {
 	})
 }
 
-// Automatically install Keen UI if Vue is available globally
+// Automatically install if Vue is available globally
 if (typeof window !== 'undefined' && window.Vue) {
 	window.Vue.use(UiLibrary)
 }
