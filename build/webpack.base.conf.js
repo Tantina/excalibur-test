@@ -34,7 +34,11 @@ module.exports = {
 							test: /\.(js|vue)$/,
 							loader: 'eslint-loader',
 							enforce: 'pre',
-							include: [resolve('src'), resolve('test')],
+							include: [
+								resolve('src'),
+								resolve('test'),
+								resolve('docs-src')
+							],
 							options: {
 								formatter: require('eslint-friendly-formatter'),
 								emitWarning: !config.dev
@@ -51,12 +55,12 @@ module.exports = {
 			{
 				test: /\.js$/,
 				loader: 'babel-loader',
-				include: [resolve('src'), resolve('test')]
+				include: [resolve('src'), resolve('test'), resolve('docs-src')]
 			},
 			{
 				test: /\.svg$/,
 				use: ['svg-sprite-loader', 'svgo-loader'],
-				include: [resolve('src/assets')]
+				include: [resolve('src/assets'), resolve('docs-src/assets')]
 			},
 			{
 				test: /\.(png|jpe?g|gif)(\?.*)?$/,
