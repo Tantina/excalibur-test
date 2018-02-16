@@ -22,7 +22,7 @@ const webpackConfig = merge(baseWebpackConfig, {
 
 	output: {
 		path: config.build.assetsLib,
-		filename: '[name].min.js',
+		filename: '[name].js',
 		library: ['UiLibrary', '[name]'],
 		libraryTarget: 'umd'
 	},
