@@ -1,6 +1,6 @@
 {
 	"name": "excalibur-test",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "A test project",
 	"author": "Tatiana Kurenkova <tatiana.kurenkova@nitka.com>",
 	"main": "dist/ui-library.min.js",
