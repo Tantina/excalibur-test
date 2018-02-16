@@ -31,7 +31,7 @@ import { menu } from '../router/routes'
 export default {
 	data() {
 		return {
-			menu: []
+			menu: menu
 		}
 	}
 }

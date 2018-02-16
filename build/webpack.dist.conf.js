@@ -19,7 +19,7 @@ const webpackConfig = merge(baseWebpackConfig, {
 		})
 	},
 	devtool: config.build.productionSourceMap ? config.build.devtool : false,
-	context: path.resolve(__dirname, '../'),
+
 	entry: {
 		app: './src/main.js'
 	},
@@ -35,6 +35,12 @@ const webpackConfig = merge(baseWebpackConfig, {
 			'process.env': env
 		}),
 		// UglifyJs do not support ES6+, you can also use babel-minify for better treeshaking: https://github.com/babel/minify
+		new webpack.optimize.UglifyJsPlugin({
+			compress: {
+				warnings: false
+			},
+			parallel: true
+		}),
 
 		// extract css into its own file
 		new ExtractTextPlugin({

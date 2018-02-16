@@ -9,6 +9,7 @@ const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
 
 const devWebpackConfig = merge(baseWebpackConfig, {
+	entry: { app: './docs-src/main.js' },
 	output: {
 		path: config.build.assetsRoot,
 		filename: 'docs.bundle.js',
